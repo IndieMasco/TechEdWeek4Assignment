@@ -1,6 +1,6 @@
 # Reflection
 
-.........
+This week, we've been learning about clients and servers and, most importantly, how to get them to communicate with each other. For this week's assignment, we'll be making a Guestbook, like the ones in hotels, for users to leave a review for other users to see.
 
 # Requirements
 
@@ -30,7 +30,7 @@ The layout is designed to be clean ensuring that pet owners can navigate the pag
 
 # Errors or Bugs I Encountered
 
-.........
+- I encountered an error while attempting to run my repo on Render within the Web Service stage. The issue was traced to the line `import { db } from "./dbConnection.js";` in my server.js file. This line was causing an import error because it was not used, which in turn caused the Render deployment to fail.
 
 # What went really well and what could have gone better?
 
