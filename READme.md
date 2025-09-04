@@ -19,7 +19,12 @@
 
 # Wireframe
 
-.........
+- .......
+
+<div align="center">
+
+![Wireframe](./images/wireframe.png)
+</div>
 
 # Errors or Bugs I Encountered
 
