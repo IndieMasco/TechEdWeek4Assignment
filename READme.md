@@ -43,3 +43,7 @@
 - FigJam - https://www.figma.com/board/JjN2Zgtoynrau06MjWJs6q/SD021?node-id=0-1&p=f&t=V1WCGcrmVKnoxJDr-0
 - MDN - https://developer.mozilla.org/en-US/
 - W3School - https://www.w3schools.com/
+
+### Render & Supabase
+
+- My own READme - https://github.com/IndieMasco/TechEdSoftwareDeveloper021/blob/main/week4/render-and-supabase/READme.md
