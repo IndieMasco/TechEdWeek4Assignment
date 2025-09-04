@@ -21,10 +21,10 @@
 
 - .......
 
-<div align="center">
+<!-- <div align="center">
 
-![Wireframe](./images/wireframe.png)
-</div>
+
+</div> -->
 
 # Errors or Bugs I Encountered
 
