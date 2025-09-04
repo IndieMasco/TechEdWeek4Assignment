@@ -19,12 +19,14 @@
 
 # Wireframe
 
-- .......
+The provided wireframe outlines the desktop and mobile layouts for a customer review page. Its primary purpose is to create a seamless user experience for pet owners who want to share their feedback. Both versions feature a dedicated form for users to submit new reviews and a prominent section to display existing customer reviews. This dual functionality ensures that visitors can easily contribute their own stories while also seeing positive feedback from other clients, building trust and credibility for the business.
 
-<!-- <div align="center">
+The layout is designed to be clean ensuring that pet owners can navigate the page effortlessly on any device. The desktop version provides a spacious layout for the review form and a clear view of multiple customer reviews, while the mobile version is optimized for smaller screens, making it quick and simple for users on the go to share their experiences.
 
+<div align="center">
 
-</div> -->
+![Wireframe](./images/wireframe.png)
+</div>
 
 # Errors or Bugs I Encountered
 
