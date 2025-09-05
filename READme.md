@@ -1,6 +1,10 @@
 # Reflection
 
-This week, we've been learning about clients and servers and, most importantly, how to get them to communicate with each other. For this week's assignment, we'll be making a Guestbook, like the ones in hotels, for users to leave a review for other users to see. With this week's assignment, I thought I was going to be a little behind as I missed half a day and did most of the lessons from home this week, but I seem to be doing better than I thought I would be. It's definitely a different experience building a full-stack app compared to what we have been doing in previous assignments, as there is so much more you've got to take into consideration. One thing that got me was working with multiple JavaScript files. With this assignment, it feels like we are taking everything we did in weeks 1, 2, and 3's assignments and putting it into one, which is pretty cool to see everything we have learned go together.
+This week, we've been learning about clients and servers and, most importantly, how to get them to communicate with each other. For this week's assignment, we'll be making a Guestbook, like the ones in hotels, for users to leave a review for other users to see. With this week's assignment, I thought I was going to be a little behind as I missed half a day and did most of the lessons from home this week, but I seem to be doing better than I thought I would be.
+
+It's definitely a different experience building a full-stack app compared to what we have been doing in previous assignments, as there is so much more you've got to take into consideration. One thing that got me was working with multiple JavaScript files. With this assignment, it feels like we are taking everything we did in weeks 1, 2, and 3's assignments and putting it into one, which is pretty cool to see everything we have learned go together.
+
+If there is anything you think I could do better or improve on, I'd be happy to listen and learn from what you have to say.
 
 # Requirements
 
