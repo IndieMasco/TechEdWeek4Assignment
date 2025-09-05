@@ -36,6 +36,7 @@ The layout is designed to be clean ensuring that pet owners can navigate the pag
 # Errors or Bugs I Encountered
 
 - I encountered an error while attempting to run my repo on Render within the Web Service stage. The issue was traced to the line `import { db } from "./dbConnection.js";` in my server.js file. This line was causing an import error because it was not used, which in turn caused the Render deployment to fail.
+- Working on two different PCs, I sometimes forget to pull when I first start, and then once I go to push, I get errors because I'm trying to push and pull at the same time. I've then got to try and figure out how to merge them both. If this step could be explained to me, that would be very helpful.
 
 # What went really well and what could have gone better?
 
@@ -59,3 +60,7 @@ The layout is designed to be clean ensuring that pet owners can navigate the pag
 ### Fetch
 
 [API & Display in HTML](https://www.youtube.com/watch?v=zUcc4vW-jsI) , [Fetch API using JavaScript](https://www.youtube.com/watch?v=37vxWr0WgQk)
+
+### Styling
+
+[CSS Cheat sheet](https://htmlcheatsheet.com/css/)
