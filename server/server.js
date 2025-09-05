@@ -23,9 +23,7 @@ app.get("/", function (req, res) {
 
 // I want to READ all data from my table
 app.get("/PawsomeDaycare", async function (req, res) {
-  const query = await db.query(
-    `SELECT * FROM pawsomedaycare ORDER BY id DESC;`
-  );
+  const query = await db.query(`SELECT * FROM pawsomedaycare ORDER BY id DESC`);
   res.json(query.rows);
 });
 
