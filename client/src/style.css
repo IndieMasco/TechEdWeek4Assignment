@@ -82,7 +82,6 @@ textarea {
   background-color: #9edbc5;
 }
 
-/* Button hover effect */
 .submit-button button:hover {
   background-color: #9edbc5;
   transform: translateY(-2px);
@@ -107,7 +106,7 @@ textarea {
 .reviews-wrapper {
   max-width: 800px;
   height: 500px;
-  /* i did add an image background but i didnt like how it looked */
+  /* I did add an image background, but I didn't like how it looked */
   /* background-image: url(./images/reviewbackground.png); */
   background-color: #ffffff;
   border: 3px solid #636363;
@@ -136,7 +135,7 @@ textarea {
   font-size: 1.2rem;
 }
 
-/* mobile */
+/* Mobile */
 
 @media (max-width: 800px) {
   /* Header */
