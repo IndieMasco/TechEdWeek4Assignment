@@ -26,7 +26,6 @@ app.get("/PawsomeDaycare", async function (req, res) {
   const query = await db.query(
     `SELECT * FROM PawsomeDaycare ORDER BY id DESC;`
   );
-  // console.log(query);
   res.json(query.rows);
 });
 
@@ -35,7 +34,6 @@ app.post("/add-PawsomeDaycare", (req, res) => {
   // An element to store the data coming from the client
   const newPawsomeDaycare = req.body;
   // Database query
-  // In our SQL queries, we can have a placeholder (parameter) that we will replace with the actual values when the client sends them
   const query = db.query(
     `INSERT INTO PawsomeDaycare (fullname, petname, email, review) VALUES ($1, $2, $3, $4)`,
     [

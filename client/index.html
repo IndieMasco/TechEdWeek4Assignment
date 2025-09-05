@@ -9,22 +9,43 @@
     <title>Vite App</title>
   </head>
   <body>
-    <h1>Pawsome Daycare</h1>
-    <form id="PawsomeDaycare">
-      <label for="fullname">Full name:</label>
-      <input type="text" name="fullname" required />
-      <label for="petname">Pets Name:</label>
-      <input type="text" name="petname" required />
-      <label for="email">Email:</label>
-      <input type="text" name="email" required />
-      <label for="review">Review:</label>
-      <input type="text" name="review" required />
-      <button type="submit">Submit review</button>
-    </form>
+    <!-- HEader of the site -->
+    <header class="main-header">
+      <h1>Pawsome Daycare</h1>
+    </header>
 
+    <!-- Left side of the form -->
+    <section class="form-section">
+      <form id="PawsomeDaycare">
+        <div class="form-left">
+          <label for="fullname">Full Name:</label>
+          <input type="text" name="fullname" required />
+          <label for="petname">Pets Name:</label>
+          <input type="text" name="petname" required />
+          <label for="email">Email:</label>
+          <input type="text" name="email" required />
+        </div>
+
+        <!-- Right side of the form -->
+        <div class="form-right">
+          <label for="review">Review:</label>
+          <textarea name="review" required></textarea>
+        </div>
+      </form>
+
+      <!-- Submit button -->
+      <div class="submit-button">
+        <button type="submit">Submit</button>
+      </div>
+    </section>
+
+    <!-- Review box -->
+    <h2 class="review-header">Customer Reviews</h2>
     <div class="reviews-wrapper">
-      <h2 class="review-header">Customer Reviews</h2>
       <div id="reviews-container"></div>
     </div>
+
+    <!-- Footer of the site -->
+    <footer class="footer">THIS IS A FILLER FOR THE TIME BEING</footer>
   </body>
 </html>

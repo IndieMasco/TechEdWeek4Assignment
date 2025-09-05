@@ -1,28 +1,130 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 
 body {
-  background-color: turquoise;
+  background-color: #9edbc5;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
 }
 
-/* Scrollable reviews box */
+/* Desk Top */
+
+/* Header */
+.main-header {
+  background-color: #636363;
+  color: #9edbc5;
+  font-size: 4rem;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Form Section */
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#PawsomeDaycare {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* Left side of the form */
+.form-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Right side of the form */
+.form-right {
+  flex-grow: 1;
+}
+
+textarea {
+  width: 100%;
+  min-height: 150px;
+  border-radius: 5px;
+}
+
+/* Submit Button */
+.submit-button button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+/* Review header */
+.review-header {
+  background-color: #636363;
+  color: #9edbc5;
+  font-size: 2em;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 40%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* Review box */
 .reviews-wrapper {
   max-width: 800px;
   height: 500px;
   background-color: #f0f8ff;
-  border: 3px solid #333;
+  border: 3px solid #636363;
   border-radius: 10px;
   overflow-y: scroll;
   padding: 20px;
-  margin-top: 15%;
 }
 
-/* Individual review cards */
+/* Review cards */
 .review-card {
   border-bottom: 1px solid #ddd;
   padding-bottom: 15px;
   margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+  background-color: #636363;
+  color: #9edbc5;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* mobile */
+
+@media (max-width: 800px) {
+  /* Header */
+  .main-header {
+    font-size: 2.5rem;
+  }
+
+  /* Form Section */
+  #PawsomeDaycare {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  /* Review header */
+  .review-header {
+    font-size: 1.5em;
+    width: 80%;
+  }
+
+  /* Review box */
+  .reviews-wrapper {
+    max-width: 90%;
+    padding: 10px;
+  }
 }

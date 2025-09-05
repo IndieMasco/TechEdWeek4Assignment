@@ -1,5 +1,3 @@
-// console.log("HELLO!");
-
 // Select the form from the DOM
 const pawsomeForm = document.getElementById("PawsomeDaycare");
 
@@ -26,13 +24,13 @@ function handleSubmit(event) {
   });
 }
 
-//TODO: Get database data from the server and render (display) on the page
-// - connect our client with the specific server route that GETs my data
-// - in some sort of loop, create new HTML elements to display each piece of data, and append to the DOM
+// TODO: Get database data from the server and render (display) on the page
+// - Connect our client with the specific server route that GETs my data
+// - In some sort of loop, create new HTML elements to display each piece of data, and append to the DOM
 
 // This function will fetch the reviews and display them on the page
 async function getAndDisplayReviews() {
-  // Fetch data from the server
+  // Fetching the data from the server
   const response = await fetch("http://localhost:8080/PawsomeDaycare");
   const reviews = await response.json();
 
