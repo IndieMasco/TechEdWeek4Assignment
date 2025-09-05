@@ -25,3 +25,7 @@ function handleSubmit(event) {
     body: JSON.stringify({ formValues }),
   });
 }
+
+//TODO: Get database data from the server and render (display) on the page
+// - connect our client with the specific server route that GETs my data
+// - in some sort of loop, create new HTML elements to display each piece of data, and append to the DOM

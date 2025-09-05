@@ -4,7 +4,7 @@ This week, we've been learning about clients and servers and, most importantly, 
 
 # Requirements
 
-- 🎯 Ensure your HTML form is working and submitting data into the database as expected.
+- ✅ 🎯 Ensure your HTML form is working and submitting data into the database as expected.
 - 🎯 Confirm that your project is functional on multiple screen sizes using either Responsive Design or media queries.
 - 🎯 Create a working GET API route in your server.
 - 🎯 Create a working POST API route in your client.
@@ -26,11 +26,13 @@ The layout is designed to be clean ensuring that pet owners can navigate the pag
 <div align="center">
 
 ![Wireframe](./images/wireframe.png)
+
 </div>
 
 # Errors or Bugs I Encountered
 
 - I encountered an error while attempting to run my repo on Render within the Web Service stage. The issue was traced to the line `import { db } from "./dbConnection.js";` in my server.js file. This line was causing an import error because it was not used, which in turn caused the Render deployment to fail.
+-
 
 # What went really well and what could have gone better?
 
