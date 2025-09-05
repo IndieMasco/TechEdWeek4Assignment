@@ -1,13 +1,13 @@
 # Reflection
 
-This week, we've been learning about clients and servers and, most importantly, how to get them to communicate with each other. For this week's assignment, we'll be making a Guestbook, like the ones in hotels, for users to leave a review for other users to see.
+This week, we've been learning about clients and servers and, most importantly, how to get them to communicate with each other. For this week's assignment, we'll be making a Guestbook, like the ones in hotels, for users to leave a review for other users to see. With this week's assignment, I thought I was going to be a little behind as I missed half a day and did most of the lessons from home this week, but I seem to be doing better than I thought I would be. It's definitely a different experience building a full-stack app compared to what we have been doing in previous assignments, as there is so much more you've got to take into consideration. One thing that got me was working with multiple JavaScript files. With this assignment, it feels like we are taking everything we did in weeks 1, 2, and 3's assignments and putting it into one, which is pretty cool to see everything we have learned go together.
 
 # Requirements
 
 - ✅ 🎯 Ensure your HTML form is working and submitting data into the database as expected.
 - 🎯 Confirm that your project is functional on multiple screen sizes using either Responsive Design or media queries.
-- 🎯 Create a working GET API route in your server.
-- 🎯 Create a working POST API route in your client.
+- ✅ 🎯 Create a working GET API route in your server.
+- ✅ 🎯 Create a working POST API route in your client.
 - 🎯 Seed your database with realistic-looking ‘dummy’ data through the Supabase query editor or a seed file in your server. Ensure that this is saved and submitted (in a screenshot or seed file form) so it can be marked and tested efficiently.
 
 # Stretch Requirements
@@ -32,11 +32,11 @@ The layout is designed to be clean ensuring that pet owners can navigate the pag
 # Errors or Bugs I Encountered
 
 - I encountered an error while attempting to run my repo on Render within the Web Service stage. The issue was traced to the line `import { db } from "./dbConnection.js";` in my server.js file. This line was causing an import error because it was not used, which in turn caused the Render deployment to fail.
--
 
 # What went really well and what could have gone better?
 
-.........
+- I was struggling to get everything talking with each other. It took me about 15 minutes to realize we are working with multiple JavaScript files for this assignment, and I hadn't done anything with my app.js on the client side.
+- I've got everything talking to each other, and my site is displaying the reviews. I just can't seem to figure out how to make the page refresh when I click Submit, so the form boxes clear and the new review displays. It's time to go down some rabbit holes to see if I can get it working. 🤞
 
 # External sources
 

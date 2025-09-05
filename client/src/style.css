@@ -1,5 +1,28 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 
 body {
-    background-color: turquoise;
+  background-color: turquoise;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Scrollable reviews box */
+.reviews-wrapper {
+  max-width: 800px;
+  height: 500px;
+  background-color: #f0f8ff;
+  border: 3px solid #333;
+  border-radius: 10px;
+  overflow-y: scroll;
+  padding: 20px;
+  margin-top: 15%;
+}
+
+/* Individual review cards */
+.review-card {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
