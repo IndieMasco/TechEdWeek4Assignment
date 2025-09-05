@@ -32,7 +32,7 @@ function handleSubmit(event) {
 async function getAndDisplayReviews() {
   // Fetching the data from the server
   const response = await fetch(
-    "https://techedweek4assignment.onrender.com/add-PawsomeDaycare"
+    "https://techedweek4assignment.onrender.com/PawsomeDaycare"
   );
   const reviews = await response.json();
 
