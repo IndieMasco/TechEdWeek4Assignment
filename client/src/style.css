@@ -71,7 +71,6 @@ textarea {
 }
 
 /* Submit Button */
-
 .submit-button button {
   padding: 10px 20px;
   font-size: 1.2rem;
@@ -83,7 +82,7 @@ textarea {
   background-color: #9edbc5;
 }
 
-/* This is the new hover effect */
+/* Button hover effect */
 .submit-button button:hover {
   background-color: #9edbc5;
   transform: translateY(-2px);
@@ -145,6 +144,7 @@ textarea {
     font-size: 2.5rem;
   }
 
+  /* Header logo */
   .header-logo {
     height: 50px;
     left: 10px;
@@ -154,6 +154,10 @@ textarea {
   #PawsomeDaycare {
     flex-direction: column;
     padding: 10px;
+  }
+
+  .form-section {
+    width: 80%;
   }
 
   /* Review header */
