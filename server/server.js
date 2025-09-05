@@ -21,7 +21,7 @@ app.get("/", function (req, res) {
   res.json({ message: "Welcome to the server. GET comfy" });
 });
 
-// I want to READ fullname, petname, review data from my table
+// I want to READ all data from my table
 app.get("/PawsomeDaycare", async function (req, res) {
   const query = await db.query(`SELECT * FROM PawsomeDaycare;`);
   // console.log(query);
@@ -30,7 +30,10 @@ app.get("/PawsomeDaycare", async function (req, res) {
 
 // Create (POST) new data in the supabase
 app.post("/add-PawsomeDaycare", (req, res) => {
+  // An element to store the data coming from the client
   const newPawsomeDaycare = req.body;
+  // Database query
+  // In our SQL queries, we can have a placeholder (parameter) that we will replace with the actual values when the client sends them
   const query = db.query(
     `INSERT INTO PawsomeDaycare (fullname, petname, email, review) VALUES ($1, $2, $3, $4)`,
     [
