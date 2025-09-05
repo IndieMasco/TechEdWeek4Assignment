@@ -24,18 +24,18 @@ app.get("/", function (req, res) {
 // I want to READ all data from my table
 app.get("/PawsomeDaycare", async function (req, res) {
   const query = await db.query(
-    `SELECT * FROM PawsomeDaycare ORDER BY id DESC;`
+    `SELECT * FROM pawsomedaycare ORDER BY id DESC;`
   );
   res.json(query.rows);
 });
 
 // Create (POST) new data in the supabase
-app.post("/add-PawsomeDaycare", (req, res) => {
+app.post("/add-pawsomeDaycare", (req, res) => {
   // An element to store the data coming from the client
   const newPawsomeDaycare = req.body;
   // Database query
   const query = db.query(
-    `INSERT INTO PawsomeDaycare (fullname, petname, email, review) VALUES ($1, $2, $3, $4)`,
+    `INSERT INTO pawsomedaycare (fullname, petname, email, review) VALUES ($1, $2, $3, $4)`,
     [
       newPawsomeDaycare.formValues.fullname,
       newPawsomeDaycare.formValues.petname,
