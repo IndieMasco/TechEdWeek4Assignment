@@ -9,17 +9,21 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 # Requirements
 
 - ✅ 🎯 Ensure your HTML form is working and submitting data into the database as expected.
+  - I've made sure that my review page works on Render. It submits a new review and displays it
 - ✅ 🎯 Confirm that your project is functional on multiple screen sizes using either Responsive Design or media queries.
+  - I used @media so that my review page looks presentable on both desktop and mobile
 - ✅ 🎯 Create a working GET API route in your server.
 - ✅ 🎯 Create a working POST API route in your client.
+  - You can find my GET and POST API routes within my server.js file
 - ✅ 🎯 Seed your database with realistic-looking ‘dummy’ data through the Supabase query editor or a seed file in your server. Ensure that this is saved and submitted (in a screenshot or seed file form) so it can be marked and tested efficiently.
+  - I've added a screenshot of my schema visualizer in the image folder. I've copied and pasted my SQL from Supabase into a queries.sql file and also put some test reviews into a seed.js file
 
 # Stretch Requirements
 
-- 🏹 Provide additional functionality on the form, for example, by adding form validation or other options.
-- 🏹 Style the page excellently, for example, by adding extra UX considerations or animations.
-- 🏹 Add a delete button to each message and a DELETE route in the server.
-- 🏹 Create an option for users to like others’ posts.
+- ❌ 🏹 Provide additional functionality on the form, for example, by adding form validation or other options.
+- ❌ 🏹 Style the page excellently, for example, by adding extra UX considerations or animations.
+- ❌ 🏹 Add a delete button to each message and a DELETE route in the server.
+- ❌ 🏹 Create an option for users to like others’ posts.
 
 # Wireframe
 
@@ -37,11 +41,21 @@ The layout is designed to be clean ensuring that pet owners can navigate the pag
 
 - I encountered an error while attempting to run my repo on Render within the Web Service stage. The issue was traced to the line `import { db } from "./dbConnection.js";` in my server.js file. This line was causing an import error because it was not used, which in turn caused the Render deployment to fail.
 - Working on two different PCs, I sometimes forget to pull when I first start, and then once I go to push, I get errors because I'm trying to push and pull at the same time. I've then got to try and figure out how to merge them both. If this step could be explained to me, that would be very helpful.
+- Once I had met all the basic goals, I was going through everything and making sure it all worked. When I loaded my site on Render, it wasn't pulling my table. At first, I thought it was because I still had my localhost link within my app.js file, so I changed that, and it still wasn't pulling it. It turned out I hadn't added my transaction pooler link into the environment variables on Render. I want to give a shout-out to Will for sitting in chat with me and helping to resolve this issue
 
 # What went really well and what could have gone better?
 
 - I was struggling to get everything talking with each other. It took me about 15 minutes to realize we are working with multiple JavaScript files for this assignment, and I hadn't done anything with my app.js on the client side.
 - I've got everything talking to each other, and my site is displaying the reviews. I just can't seem to figure out how to make the page refresh when I click Submit, so the form boxes clear and the new review displays. It's time to go down some rabbit holes to see if I can get it working. 🤞
+- I don't know if it has something to do with how I write my code, or if it's just normal, but when I load my review page on the Render link, it takes a little while to display the reviews
+- On my page, I wanted the reviews to show the newest at the top, descending to the oldest. This was the way I managed to get it done, but I would like to know if there is a better way
+
+```javascript
+app.get("/PawsomeDaycare", async function (req, res) {
+  const query = await db.query(`SELECT * FROM pawsomedaycare ORDER BY id DESC`);
+  res.json(query.rows);
+});
+```
 
 # External sources
 
