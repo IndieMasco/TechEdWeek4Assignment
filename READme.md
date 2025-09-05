@@ -12,7 +12,7 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 - 🎯 Confirm that your project is functional on multiple screen sizes using either Responsive Design or media queries.
 - ✅ 🎯 Create a working GET API route in your server.
 - ✅ 🎯 Create a working POST API route in your client.
-- 🎯 Seed your database with realistic-looking ‘dummy’ data through the Supabase query editor or a seed file in your server. Ensure that this is saved and submitted (in a screenshot or seed file form) so it can be marked and tested efficiently.
+- ✅ 🎯 Seed your database with realistic-looking ‘dummy’ data through the Supabase query editor or a seed file in your server. Ensure that this is saved and submitted (in a screenshot or seed file form) so it can be marked and tested efficiently.
 
 # Stretch Requirements
 
@@ -46,12 +46,16 @@ The layout is designed to be clean ensuring that pet owners can navigate the pag
 
 ### Info
 
-- My own repo - https://github.com/IndieMasco/TechEdSoftwareDeveloper021
-- Tech Ed repo - https://github.com/Tech-Educators/software-dev-021
-- FigJam - https://www.figma.com/board/JjN2Zgtoynrau06MjWJs6q/SD021?node-id=0-1&p=f&t=V1WCGcrmVKnoxJDr-0
-- MDN - https://developer.mozilla.org/en-US/
-- W3School - https://www.w3schools.com/
+- [My own repo](https://github.com/IndieMasco/TechEdSoftwareDeveloper021) , [Tech Ed repo](https://github.com/Tech-Educators/software-dev-021) , [FigJam](https://www.figma.com/board/JjN2Zgtoynrau06MjWJs6q/SD021?node-id=0-1&p=f&t=V1WCGcrmVKnoxJDr-0) , [MDN](https://developer.mozilla.org/en-US/) , [W3School](https://www.w3schools.com/)
 
 ### Render & Supabase
 
-- My own READme - https://github.com/IndieMasco/TechEdSoftwareDeveloper021/blob/main/week4/render-and-supabase/READme.md
+- [My own READme](https://github.com/IndieMasco/TechEdSoftwareDeveloper021/blob/main/week4/render-and-supabase/READme.md)
+
+### Form
+
+- [Simple Contact Form](https://www.youtube.com/watch?v=lU98TelrlPM&t=175s) , [HTML forms](https://www.youtube.com/watch?v=zIN54lhJtQU) , [W3School Forms](https://www.w3schools.com/html/html_forms.asp) , [MDN Forms](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form)
+
+### Fetch
+
+- [API & Display in HTML](https://www.youtube.com/watch?v=zUcc4vW-jsI) , [Fetch API using JavaScript](https://www.youtube.com/watch?v=37vxWr0WgQk)
