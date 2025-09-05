@@ -49,7 +49,7 @@ async function getAndDisplayReviews() {
     reviewDiv.innerHTML = `
       <h3>Review from ${review.fullname}</h3>
       <p>Pet's Name: ${review.petname}</p>
-      <p>Review: "${review.review}"</p>
+      <p>Review: ${review.review}</p>
     `;
 
     // Append the new review card to the reviews container
