@@ -15,7 +15,7 @@ function handleSubmit(event) {
   console.log(formValues);
 
   // Send the data to the server
-  fetch("http://localhost:8080/add-PawsomeDaycare", {
+  fetch("https://techedweek4assignment.onrender.com/add-PawsomeDaycare", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -31,7 +31,9 @@ function handleSubmit(event) {
 // This function will fetch the reviews and display them on the page
 async function getAndDisplayReviews() {
   // Fetching the data from the server
-  const response = await fetch("http://localhost:8080/PawsomeDaycare");
+  const response = await fetch(
+    "https://techedweek4assignment.onrender.com/add-PawsomeDaycare"
+  );
   const reviews = await response.json();
 
   // Linking with my div within the HTML
