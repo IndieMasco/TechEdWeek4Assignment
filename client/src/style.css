@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 
 body {
-  background-color: #9edbc5;
+  background-image: url(./images/background.png);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +20,14 @@ body {
   width: 100%;
   text-align: center;
   padding: 10px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.header-logo {
+  position: absolute;
+  left: 20px;
+  height: 75px;
+  border-radius: 60px;
 }
 
 /* Form Section */
@@ -27,8 +35,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 55%;
   margin-top: 30px;
+  padding: 15px;
+  background-color: #636363;
+  color: #9edbc5;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
 }
 
 #PawsomeDaycare {
@@ -57,23 +70,31 @@ textarea {
   border-radius: 5px;
 }
 
-/* Submit button */
-.submit-button {
-  margin-top: 75px;
-}
-
 /* Submit Button */
+
 .submit-button button {
   padding: 10px 20px;
-  margin: 10px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   cursor: pointer;
+  margin-top: 75px;
+  border-radius: 20px;
+  border: none;
+  color: #636363;
+  background-color: #9edbc5;
+}
+
+/* This is the new hover effect */
+.submit-button button:hover {
+  background-color: #9edbc5;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px #9edbc58c;
 }
 
 /* Review header */
 .review-header {
   background-color: #636363;
   color: #9edbc5;
+  border: 2px solid #ffffff;
   font-size: 2em;
   margin-top: 50px;
   margin-bottom: 20px;
@@ -87,7 +108,9 @@ textarea {
 .reviews-wrapper {
   max-width: 800px;
   height: 500px;
-  background-color: #f0f8ff;
+  /* i did add an image background but i didnt like how it looked */
+  /* background-image: url(./images/reviewbackground.png); */
+  background-color: #ffffff;
   border: 3px solid #636363;
   border-radius: 10px;
   overflow-y: scroll;
@@ -106,6 +129,7 @@ textarea {
 .footer {
   background-color: #636363;
   color: #9edbc5;
+  border-top: 2px solid #ffffff;
   width: 100%;
   text-align: center;
   padding: 10px;
@@ -119,6 +143,11 @@ textarea {
   /* Header */
   .main-header {
     font-size: 2.5rem;
+  }
+
+  .header-logo {
+    height: 50px;
+    left: 10px;
   }
 
   /* Form Section */

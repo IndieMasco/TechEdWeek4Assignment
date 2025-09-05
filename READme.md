@@ -77,4 +77,4 @@ app.get("/PawsomeDaycare", async function (req, res) {
 
 ### Styling
 
-[CSS Cheat sheet](https://htmlcheatsheet.com/css/)
+[CSS Cheat sheet](https://htmlcheatsheet.com/css/) , [W3School hover effect](https://www.w3schools.com/howto/howto_css_animate_buttons.asp) , [CSS hover effect](https://prismic.io/blog/css-hover-effects) , [Google fonts](https://fonts.google.com/)
