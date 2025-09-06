@@ -58,7 +58,7 @@ The layout is designed to be clean ensuring that pet owners can navigate the pag
 - I encountered an error while attempting to deploy my repo on Render within the Web Service stage. The issue was traced to the line `import { db } from "./dbConnection.js";` in my server.js file. This line was causing an import error because it was not used, which in turn caused the Render deployment to fail. I have now updated my [step-by-step](https://github.com/IndieMasco/TechEdSoftwareDeveloper021/blob/main/week4/render-and-supabase/READme.md) guide so that other people don't run into the same issue
 - Working on two different PCs, I sometimes forget to pull when I first start, and then once I go to push, I get errors because I'm trying to push and pull at the same time. I've then got to try and figure out how to merge them both. If this step could be explained to me, that would be very helpful.
 - Once I had met all the basic goals, I was going through everything and making sure it all worked. When I loaded my site on Render, it wasn't pulling my table. At first, I thought it was because I still had my localhost link within my app.js file, so I changed that, and it still wasn't pulling it. It turned out I hadn't added my transaction pooler link into the environment variables on Render. I want to give a shout-out to Will for sitting in chat with me and helping to resolve this issue
-- my favicon.ico isnt showing up on the render side but works fine on localhost
+- My favicon.ico isn't showing up on the render side but works fine on localhost
 
 # What went really well and what could have gone better?
 
