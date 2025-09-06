@@ -21,13 +21,15 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 # Stretch Requirements
 
 - ✅ 🏹 Style the page excellently, for example, by adding extra UX considerations or animations.
-- I feel like I have achieved this as I've gone for a simple and clean design, made everything flow nicely together, I've kept my colour palette to just 3 throughout my site, I've added white borders to help break certain elements up
+  - I feel like I have achieved this as I've gone for a simple and clean design, made everything flow nicely together, I've kept my colour palette to just 3 throughout my site, I've added white borders to help break certain elements up
+- ✅ 🏹 Provide additional functionality on the form, for example, by adding form validation or other options.
+  - I have added placeholder text in each box to help users know what to put in the boxes and I've made the review box have a maximum characters of 300
 
 # requirements that I wasn't able to achieve
 
-- ❌ 🏹 Provide additional functionality on the form, for example, by adding form validation or other options.
 - ❌ 🏹 Add a delete button to each message and a DELETE route in the server.
 - ❌ 🏹 Create an option for users to like others’ posts.
+  - I've started on these two stretch goals. I've added a button for both and styled them. I've just got to do the JavaScript to make them actually work
 
 # Wireframe
 
@@ -43,13 +45,13 @@ The layout is designed to be clean ensuring that pet owners can navigate the pag
 
 # Errors or Bugs I Encountered
 
-- I encountered an error while attempting to run my repo on Render within the Web Service stage. The issue was traced to the line `import { db } from "./dbConnection.js";` in my server.js file. This line was causing an import error because it was not used, which in turn caused the Render deployment to fail.
+- I encountered an error while attempting to deploy my repo on Render within the Web Service stage. The issue was traced to the line `import { db } from "./dbConnection.js";` in my server.js file. This line was causing an import error because it was not used, which in turn caused the Render deployment to fail. I have now updated my [step-by-step](https://github.com/IndieMasco/TechEdSoftwareDeveloper021/blob/main/week4/render-and-supabase/READme.md) guide so that other people don't run into the same issue
 - Working on two different PCs, I sometimes forget to pull when I first start, and then once I go to push, I get errors because I'm trying to push and pull at the same time. I've then got to try and figure out how to merge them both. If this step could be explained to me, that would be very helpful.
 - Once I had met all the basic goals, I was going through everything and making sure it all worked. When I loaded my site on Render, it wasn't pulling my table. At first, I thought it was because I still had my localhost link within my app.js file, so I changed that, and it still wasn't pulling it. It turned out I hadn't added my transaction pooler link into the environment variables on Render. I want to give a shout-out to Will for sitting in chat with me and helping to resolve this issue
 
 # What went really well and what could have gone better?
 
-- I was struggling to get everything talking with each other. It took me about 15 minutes to realize we are working with multiple JavaScript files for this assignment, and I hadn't done anything with my app.js on the client side.
+- I was struggling to get everything talking with each other. It took me about 15 minutes to realize we are working with multiple JavaScript files for this assignment, and I hadn't done anything with my app.js on the client side. 😅
 - I've got everything talking to each other, and my site is displaying the reviews. I just can't seem to figure out how to make the page refresh when I click Submit, so the form boxes clear and the new review displays. It's time to go down some rabbit holes to see if I can get it working. 🤞 I DID IT, WOOOOOOO! THE PAGE REFRESHES ON SUBMIT 🎉
 - I don't know if it has something to do with how I write my code, or if it's just normal, but when I load my review page on the Render link, it takes a little while to display the reviews
 - On my page, I wanted the reviews to show the newest at the top, descending to the oldest. This was the way I managed to get it done, but I would like to know if there is a better way
@@ -88,3 +90,7 @@ app.get("/PawsomeDaycare", async function (req, res) {
 ### Refresh on submit
 
 [Stack overflow - Refresh](https://stackoverflow.com/questions/18920651/how-can-i-refresh-a-form-page-after-the-form-submits-to-blank) , [automatically refresh](https://www.youtube.com/watch?v=IPT3BKoM2Pc) , [MDN - Location: reload() method](https://developer.mozilla.org/en-US/docs/Web/API/Location/reload) , [W3School - if, else, and else if](https://www.w3schools.com/js/js_if_else.asp) , [MDN - if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) , [MDN - Promise.prototype.then()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) , [Stack overflow - then()](https://stackoverflow.com/questions/3884281/what-does-the-function-then-mean-in-javascript)
+
+### Like button
+
+[Add a Like or Dislike Button](https://www.youtube.com/watch?app=desktop&v=20tJJAI6_oA) , [Stack overflow - Dislike button](https://stackoverflow.com/questions/4298300/how-to-implement-the-dislike-like-button)

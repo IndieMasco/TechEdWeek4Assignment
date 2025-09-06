@@ -59,6 +59,8 @@ async function getAndDisplayReviews() {
       <h3>Review from ${review.fullname}</h3>
       <p>Pet's Name: ${review.petname}</p>
       <p>Review: ${review.review}</p>
+      <button class="like-button">💖 Like</button>
+      <button class="delete-button">🗑️ Delete</button>
     `;
 
     // Append the new review card to the reviews container

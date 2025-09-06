@@ -15,7 +15,7 @@
     />
   </head>
   <body>
-    <!-- HEader of the site -->
+    <!-- Header of the site -->
     <header class="main-header">
       <img
         src="./src/images/logo.png"
@@ -30,17 +30,27 @@
       <form id="PawsomeDaycare">
         <div class="form-left">
           <label for="fullname">Full Name:</label>
-          <input type="text" name="fullname" required />
+          <input type="text" name="fullname" required placeholder="Sam Clark" />
           <label for="petname">Pets Name:</label>
-          <input type="text" name="petname" required />
+          <input type="text" name="petname" required placeholder="Gimli" />
           <label for="email">Email:</label>
-          <input type="text" name="email" required />
+          <input
+            type="text"
+            name="email"
+            required
+            placeholder="gimli-middle-earth@gmail.com"
+          />
         </div>
 
         <!-- Right side of the form -->
         <div class="form-right">
           <label for="review">Review:</label>
-          <textarea name="review" required></textarea>
+          <textarea
+            name="review"
+            required
+            maxlength="300"
+            placeholder="Gimli had a blast! He loves the outdoor play area."
+          ></textarea>
         </div>
 
         <!-- Submit button -->
