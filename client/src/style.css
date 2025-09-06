@@ -13,31 +13,22 @@ body {
 /* Desk Top */
 
 /* Header */
+/* Header */
 .main-header {
   background-color: #636363;
   color: #9edbc5;
-  border-bottom: 2px solid #ffffff;
+  font-size: 4rem;
   width: 100%;
+  text-align: center;
   padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  border-bottom: 2px solid #ffffff;
 }
 
 .header-logo {
+  position: absolute;
+  left: 20px;
   height: 75px;
   border-radius: 60px;
-}
-
-h1 {
-  font-size: 4rem;
-  margin-left: 170px;
-}
-
-nav a {
-  color: #9edbc5;
-  font-size: 1.5rem;
-  margin-left: 25px;
 }
 
 /* Form section */
