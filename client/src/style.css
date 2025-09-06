@@ -16,18 +16,28 @@ body {
 .main-header {
   background-color: #636363;
   color: #9edbc5;
-  font-size: 4rem;
-  width: 100%;
-  text-align: center;
-  padding: 10px;
   border-bottom: 2px solid #ffffff;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo {
-  position: absolute;
-  left: 20px;
   height: 75px;
   border-radius: 60px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-left: 170px;
+}
+
+nav a {
+  color: #9edbc5;
+  font-size: 1.5rem;
+  margin-left: 25px;
 }
 
 /* Form section */
@@ -86,6 +96,25 @@ textarea {
   background-color: #9edbc5;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px #9edbc58c;
+}
+
+/* Star rating */
+
+.star-rating {
+  direction: rtl;
+}
+
+.star-rating > input {
+  display: none;
+}
+
+.star-rating > label {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.star-rating > input:checked ~ label {
+  color: #9edbc5;
 }
 
 /* Review header */

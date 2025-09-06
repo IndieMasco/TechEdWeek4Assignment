@@ -70,3 +70,15 @@ async function getAndDisplayReviews() {
 
 // Calling the function
 getAndDisplayReviews();
+
+// character counter
+const reviewTextarea = document.querySelector('textarea[name="review"]');
+const charCountSpan = document.getElementById("charCount");
+// maximum character limit
+const maxLength = 300;
+// event listener
+reviewTextarea.addEventListener("input", () => {
+  const currentLength = reviewTextarea.value.length;
+  // Update character counter
+  charCountSpan.textContent = `${currentLength} / ${maxLength} Characters remaining`;
+});

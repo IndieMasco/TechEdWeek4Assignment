@@ -37,14 +37,17 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 
 - ✅ 🏹 Provide additional functionality on the form, for example, by adding form validation or other options.
 
+  - All parts of the form have to be filled before the user can submit there review
   - I have added placeholder text in each box to help users know what to put in the boxes
   - I've made the review box have a maximum characters of 300
+  - I've added a character counter so the user knows there's a limit to what they can write
+  - I've added a star rating to the site, but can't seem to figure out how to save the rating and put it onto the review. Thought talking to people and looking it up, would I be right to assume that the star rating would have to run through Supabase so I can store the ratings and then display them with the review?
 
 # requirements that I wasn't able to achieve
 
 - ❌ 🏹 Add a delete button to each message and a DELETE route in the server.
 - ❌ 🏹 Create an option for users to like others’ posts.
-  - I've started on these two stretch goals. I've added a button for both and styled them. I've just got to do the JavaScript to make them actually work
+  - I've started on these two stretch goals. I've added a button for both and styled them. I've just got to do the JavaScript to make them actually work down the rabbit hole I go 🐰
 
 # Wireframe
 
@@ -68,7 +71,7 @@ The layout is designed to be clean ensuring that pet owners can navigate the pag
 # What went really well and what could have gone better?
 
 - I was struggling to get everything talking with each other. It took me about 15 minutes to realize we are working with multiple JavaScript files for this assignment, and I hadn't done anything with my app.js on the client side. 😅
-- I've got everything talking to each other, and my site is displaying the reviews. I just can't seem to figure out how to make the page refresh when I click Submit, so the form boxes clear and the new review displays. It's time to go down some rabbit holes to see if I can get it working. 🤞 I DID IT, WOOOOOOO! THE PAGE REFRESHES ON SUBMIT 🎉
+- I've got everything talking to each other, and my site is displaying the reviews. I just can't seem to figure out how to make the page refresh when I click Submit, so the form boxes clear and the new review displays. Down the rabbit hole I go to see if I can get it working. 🐰 I DID IT, WOOOOOOO! THE PAGE REFRESHES ON SUBMIT 🎉
 - I don't know if it has something to do with how I write my code, or if it's just normal, but when I load my review page on the Render link, it takes a little while to display the reviews
 - On my page, I wanted the reviews to show the newest at the top, descending to the oldest. This was the way I managed to get it done, but I would like to know if there is a better way
 
@@ -110,3 +113,11 @@ app.get("/PawsomeDaycare", async function (req, res) {
 ### Like button
 
 [Add a Like or Dislike Button](https://www.youtube.com/watch?app=desktop&v=20tJJAI6_oA) , [Stack overflow - Dislike button](https://stackoverflow.com/questions/4298300/how-to-implement-the-dislike-like-button)
+
+### character counter
+
+[Stack overflow - character counter](https://stackoverflow.com/questions/19962608/javascript-character-count) , [Characters Remaining Counter](https://www.youtube.com/watch?v=X-LVkU95jLU)
+
+### Star rating
+
+[Star Rating in HTML CSS & JavaScript](https://www.youtube.com/watch?v=q1xhbc-oKnc) , [Stack Overflow - Star rating](https://stackoverflow.com/questions/70588824/create-rating-star-with-html-and-css) , [Star Rating Examples](https://www.sliderrevolution.com/resources/css-star-rating/)
