@@ -24,7 +24,7 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 
 - ✅ 🏹 Style the page excellently, for example, by adding extra UX considerations or animations.
 
-  - I feel like I have achieved this as
+- I feel like I have achieved this as
 
   - I've gone for a simple and clean design Making everything flow nicely together
   - I've kept my colour palette to just 3 throughout my site
