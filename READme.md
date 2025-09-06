@@ -18,7 +18,10 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 - ✅ 🎯 Create a working POST API route in your client.
   - You can find my GET and POST API routes within my server.js file
 - ✅ 🎯 Seed your database with realistic-looking ‘dummy’ data through the Supabase query editor or a seed file in your server. Ensure that this is saved and submitted (in a screenshot or seed file form) so it can be marked and tested efficiently.
-  - I've added a screenshot of my schema visualizer in the image folder. I've copied and pasted my SQL from Supabase into a queries.sql file and also put some test reviews into a seed.js file
+
+  - I've added a screenshot of my schema visualizer in the image folder
+  - I've copied and pasted my SQL from Supabase into a queries.sql file
+  - I've put some test reviews into a seed.js file
 
 # Stretch Requirements
 
@@ -33,7 +36,9 @@ If there is anything you think I could do better or improve on, I'd be happy to 
   - I feel like the text style I've gone for is easy to read
 
 - ✅ 🏹 Provide additional functionality on the form, for example, by adding form validation or other options.
-  - I have added placeholder text in each box to help users know what to put in the boxes and I've made the review box have a maximum characters of 300
+
+  - I have added placeholder text in each box to help users know what to put in the boxes
+  - I've made the review box have a maximum characters of 300
 
 # requirements that I wasn't able to achieve
 
