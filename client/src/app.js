@@ -56,7 +56,7 @@ async function getAndDisplayReviews() {
 
     // This is what will displayed for each review
     reviewDiv.innerHTML = `
-      <h3>Review from ${review.fullname}</h3>
+      <h3>Review from: ${review.fullname}</h3>
       <p>Pet's Name: ${review.petname}</p>
       <p>Review: ${review.review}</p>
       <button class="like-button">💖 Like</button>
