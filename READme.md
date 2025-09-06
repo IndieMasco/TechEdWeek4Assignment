@@ -100,7 +100,7 @@ app.get("/PawsomeDaycare", async function (req, res) {
 
 ### Refresh on submit
 
-[Stack overflow - Refresh](https://stackoverflow.com/questions/18920651/how-can-i-refresh-a-form-page-after-the-form-submits-to-blank) , [automatically refresh](https://www.youtube.com/watch?v=IPT3BKoM2Pc) , [MDN - Location: reload() method](https://developer.mozilla.org/en-US/docs/Web/API/Location/reload) , [W3School - if, else, and else if](https://www.w3schools.com/js/js_if_else.asp) , [MDN - if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) , [MDN - Promise.prototype.then()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) , [Stack overflow - then()](https://stackoverflow.com/questions/3884281/what-does-the-function-then-mean-in-javascript)
+[Stack overflow - Refresh](https://stackoverflow.com/questions/18920651/how-can-i-refresh-a-form-page-after-the-form-submits-to-blank) , [Automatically refresh](https://www.youtube.com/watch?v=IPT3BKoM2Pc) , [MDN - Location: reload() method](https://developer.mozilla.org/en-US/docs/Web/API/Location/reload) , [W3School - if, else, and else if](https://www.w3schools.com/js/js_if_else.asp) , [MDN - if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) , [MDN - Promise.prototype.then()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) , [Stack overflow - then()](https://stackoverflow.com/questions/3884281/what-does-the-function-then-mean-in-javascript)
 
 ### Like button
 
