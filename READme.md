@@ -4,6 +4,8 @@ This week, we've been learning about clients and servers and, most importantly, 
 
 It's definitely a different experience building a full-stack app compared to what we have been doing in previous assignments, as there is so much more you've got to take into consideration. One thing that got me was working with multiple JavaScript files. With this assignment, it feels like we are taking everything we did in weeks 1, 2, and 3's assignments and putting it into one, which is pretty cool to see everything we have learned go together.
 
+I feel like I've had so much to say about this assignment. I think it's because this is my first full-stack app, and there was so much more to it than in previous weeks. Overall, I'm really happy with how it has turned out, and I've also sent it to friends and family so they can help me test it and see if there is anything I need to fix
+
 If there is anything you think I could do better or improve on, I'd be happy to listen and learn from what you have to say.
 
 # Requirements
@@ -21,7 +23,15 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 # Stretch Requirements
 
 - ✅ 🏹 Style the page excellently, for example, by adding extra UX considerations or animations.
-  - I feel like I have achieved this as I've gone for a simple and clean design, made everything flow nicely together, I've kept my colour palette to just 3 throughout my site, I've added white borders to help break certain elements up
+
+  - I feel like I have achieved this as
+
+  - I've gone for a simple and clean design Making everything flow nicely together
+  - I've kept my colour palette to just 3 throughout my site
+  - I've added white borders to help break certain elements up
+  - I've kept the buttons and hover effects the same throughout the site
+  - I feel like the text style I've gone for is easy to read
+
 - ✅ 🏹 Provide additional functionality on the form, for example, by adding form validation or other options.
   - I have added placeholder text in each box to help users know what to put in the boxes and I've made the review box have a maximum characters of 300
 
@@ -48,6 +58,7 @@ The layout is designed to be clean ensuring that pet owners can navigate the pag
 - I encountered an error while attempting to deploy my repo on Render within the Web Service stage. The issue was traced to the line `import { db } from "./dbConnection.js";` in my server.js file. This line was causing an import error because it was not used, which in turn caused the Render deployment to fail. I have now updated my [step-by-step](https://github.com/IndieMasco/TechEdSoftwareDeveloper021/blob/main/week4/render-and-supabase/READme.md) guide so that other people don't run into the same issue
 - Working on two different PCs, I sometimes forget to pull when I first start, and then once I go to push, I get errors because I'm trying to push and pull at the same time. I've then got to try and figure out how to merge them both. If this step could be explained to me, that would be very helpful.
 - Once I had met all the basic goals, I was going through everything and making sure it all worked. When I loaded my site on Render, it wasn't pulling my table. At first, I thought it was because I still had my localhost link within my app.js file, so I changed that, and it still wasn't pulling it. It turned out I hadn't added my transaction pooler link into the environment variables on Render. I want to give a shout-out to Will for sitting in chat with me and helping to resolve this issue
+- my favicon.ico isnt showing up on the render side but works fine on localhost
 
 # What went really well and what could have gone better?
 
