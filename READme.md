@@ -20,8 +20,12 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 
 # Stretch Requirements
 
+- ✅ 🏹 Style the page excellently, for example, by adding extra UX considerations or animations.
+- I feel like I have achieved this as I've gone for a simple and clean design, made everything flow nicely together, I've kept my colour palette to just 3 throughout my site, I've added white borders to help break certain elements up
+
+# requirements that I wasn't able to achieve
+
 - ❌ 🏹 Provide additional functionality on the form, for example, by adding form validation or other options.
-- ❌ 🏹 Style the page excellently, for example, by adding extra UX considerations or animations.
 - ❌ 🏹 Add a delete button to each message and a DELETE route in the server.
 - ❌ 🏹 Create an option for users to like others’ posts.
 
@@ -46,7 +50,7 @@ The layout is designed to be clean ensuring that pet owners can navigate the pag
 # What went really well and what could have gone better?
 
 - I was struggling to get everything talking with each other. It took me about 15 minutes to realize we are working with multiple JavaScript files for this assignment, and I hadn't done anything with my app.js on the client side.
-- I've got everything talking to each other, and my site is displaying the reviews. I just can't seem to figure out how to make the page refresh when I click Submit, so the form boxes clear and the new review displays. It's time to go down some rabbit holes to see if I can get it working. 🤞
+- I've got everything talking to each other, and my site is displaying the reviews. I just can't seem to figure out how to make the page refresh when I click Submit, so the form boxes clear and the new review displays. It's time to go down some rabbit holes to see if I can get it working. 🤞 I DID IT, WOOOOOOO! THE PAGE REFRESHES ON SUBMIT 🎉
 - I don't know if it has something to do with how I write my code, or if it's just normal, but when I load my review page on the Render link, it takes a little while to display the reviews
 - On my page, I wanted the reviews to show the newest at the top, descending to the oldest. This was the way I managed to get it done, but I would like to know if there is a better way
 
@@ -59,6 +63,8 @@ app.get("/PawsomeDaycare", async function (req, res) {
 
 # External sources
 
+- Manny asked that we make sure we add the links we used, so I made sure to add all the links I used 😅
+
 ### Info
 
 [My own repo](https://github.com/IndieMasco/TechEdSoftwareDeveloper021) , [Tech Ed repo](https://github.com/Tech-Educators/software-dev-021) , [FigJam](https://www.figma.com/board/JjN2Zgtoynrau06MjWJs6q/SD021?node-id=0-1&p=f&t=V1WCGcrmVKnoxJDr-0) , [MDN](https://developer.mozilla.org/en-US/) , [W3School](https://www.w3schools.com/)
@@ -69,7 +75,7 @@ app.get("/PawsomeDaycare", async function (req, res) {
 
 ### Form
 
-[Simple Contact Form](https://www.youtube.com/watch?v=lU98TelrlPM&t=175s) , [HTML forms](https://www.youtube.com/watch?v=zIN54lhJtQU) , [W3School Forms](https://www.w3schools.com/html/html_forms.asp) , [MDN Forms](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form)
+[Simple Contact Form](https://www.youtube.com/watch?v=lU98TelrlPM&t=175s) , [HTML forms](https://www.youtube.com/watch?v=zIN54lhJtQU) , [W3School - Forms](https://www.w3schools.com/html/html_forms.asp) , [MDN Forms](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form)
 
 ### Fetch
 
@@ -77,4 +83,8 @@ app.get("/PawsomeDaycare", async function (req, res) {
 
 ### Styling
 
-[CSS Cheat sheet](https://htmlcheatsheet.com/css/) , [W3School hover effect](https://www.w3schools.com/howto/howto_css_animate_buttons.asp) , [CSS hover effect](https://prismic.io/blog/css-hover-effects) , [Google fonts](https://fonts.google.com/)
+[CSS Cheat sheet](https://htmlcheatsheet.com/css/) , [W3School - hover effect](https://www.w3schools.com/howto/howto_css_animate_buttons.asp) , [CSS hover effect](https://prismic.io/blog/css-hover-effects) , [Google fonts](https://fonts.google.com/)
+
+### Refresh on submit
+
+[Stack overflow - Refresh](https://stackoverflow.com/questions/18920651/how-can-i-refresh-a-form-page-after-the-form-submits-to-blank) , [automatically refresh](https://www.youtube.com/watch?v=IPT3BKoM2Pc) , [MDN - Location: reload() method](https://developer.mozilla.org/en-US/docs/Web/API/Location/reload) , [W3School - if, else, and else if](https://www.w3schools.com/js/js_if_else.asp) , [MDN - if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) , [MDN - Promise.prototype.then()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) , [Stack overflow - then()](https://stackoverflow.com/questions/3884281/what-does-the-function-then-mean-in-javascript)

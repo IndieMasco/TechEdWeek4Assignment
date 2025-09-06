@@ -8,19 +8,28 @@ pawsomeForm.addEventListener("submit", handleSubmit);
 function handleSubmit(event) {
   // Prevent the data from going to the url
   event.preventDefault();
+
   // Create a new template object using my form inputs
   const formData = new FormData(pawsomeForm); // This is the box to store our input data
   // Fill the input data in to the template object
   const formValues = Object.fromEntries(formData);
   console.log(formValues);
 
-  // Send the data to the server
+  // Send the data to the server and handle the refresh
   fetch("https://techedweek4assignment.onrender.com/add-PawsomeDaycare", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({ formValues }),
+  }).then((response) => {
+    if (response.ok) {
+      // If the POST request was successful
+      window.location.reload();
+    } else {
+      // If the request fails
+      console.error("Failed to submit the review.");
+    }
   });
 }
 
