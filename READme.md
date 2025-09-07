@@ -41,13 +41,17 @@ If there is anything you think I could do better or improve on, I'd be happy to 
   - I have added placeholder text in each box to help users know what to put in the boxes
   - I've made the review box have a maximum characters of 300
   - I've added a character counter so the user knows there's a limit to what they can write
-  - I've added a star rating to the site, but can't seem to figure out how to save the rating and put it onto the review. Thought talking to people and looking it up, would I be right to assume that the star rating would have to run through Supabase so I can store the ratings and then display them with the review?
+  - I've added a star rating to the site, but can't seem to figure out how to save the rating and put it onto the review. By talking to people and looking it up, would I be right to assume that the star rating would have to run through Supabase so I can store the ratings and then display them with the review?
 
 # requirements that I wasn't able to achieve
 
 - ❌ 🏹 Add a delete button to each message and a DELETE route in the server.
 - ❌ 🏹 Create an option for users to like others’ posts.
   - I've started on these two stretch goals. I've added a button for both and styled them. I've just got to do the JavaScript to make them actually work down the rabbit hole I go 🐰
+  - I've been down the rabbit hole. I've got a rough idea of what I need to do
+  - For the delete button, I'll need an app.delete()
+  - For the like button, I'll need app.put() or app.patch()
+  - I'll need them both to run through Supabase; it's just now figuring out how to do that 🤔
 
 # Wireframe
 
