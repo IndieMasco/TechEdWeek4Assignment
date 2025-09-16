@@ -66,6 +66,6 @@ Super powers, big fan!!!!
 
 I’m giving you an 8/8 overall for this assignment:
 
-**### Web Fundamentals: 4, Programming Logic: 4** — because you’ve demonstrated true excellence in structure, responsiveness, deployment, clean routing and database integration. Truly impressive work this week, keep this momentum going!!! Well done!!!
+**Web Fundamentals: 4, Programming Logic: 4** — because you’ve demonstrated true excellence in structure, responsiveness, deployment, clean routing and database integration. Truly impressive work this week, keep this momentum going!!! Well done!!!
 
 ~Joe
